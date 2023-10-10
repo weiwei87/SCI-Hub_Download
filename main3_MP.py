@@ -55,7 +55,7 @@ def process_doi(doi):
     download_pdf(doi)
 
 if __name__ == '__main__':
-    df = pd.read_csv('Exported Items1.csv')
+    df = pd.read_csv('Exported Items.csv')
     saved_column = df['DOI']
 
     # Create a separate process for each DOI
